@@ -8,25 +8,36 @@
 
 </head>
 <body> 
+
+    <!-- container div -->
     <div id="container" class="container">
+
+        <!-- heading -->
         <div id="heading">
             <h1>Typing Speed Test</h1>
         </div>
+
+        <!-- sentence to type -->
         <div id="quote">
-            A random quote goes here...
+            type the following sentence...
         </div>
+
+        <!-- text area for user to type anything -->
         <textarea name="input-text" id="input-text" rows = "4">
 
         </textarea>
 
+        <!-- stats for user -->
         <div class="stats">
             <p>Time: <span id="time-taken">0</span> s</p>
             <p>Words per Minute: <span id="wpm">0</span></p>
             <p>Accuracy: <span id="accuracy">0</span></p>
         </div>
+
+        <!-- buttons div for reset and Generate -->
         <div class="buttons">
+            <button>Get Sentence</button>
             <button type="reset">Reset</button>
-            <button>Generate Sentence</button>
         </div>
     </div>
     
